@@ -14,6 +14,7 @@ This macro requires **PTBIOP** and **IJPB-plugins** from the Fiji plugins update
 ## How to use
 
 Click on run and modify the GUI according to your experiment. The data are expected to be czi files. This macro aims to work on Z-stack confocal data.
+<br>Nuclei are detected using cellpose, and the cytoplasm created by expanding for 20px (equivalent 5um in the test dataset, should be changed to be more useful).
 <br>Finetune the parameters for the prominence2 and prominence3 for the detection of the spots. 
 <br>A table with the result will be displayed at the end and should be saved manually.
 
